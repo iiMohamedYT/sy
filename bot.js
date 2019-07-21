@@ -1,7 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "#"
- 
+var adminprefix = "&"
+const developers = ["541680405615476756","id"]
+
 client.on('message', message => {
     var p = message.mentions.members.first();
     var reason = message.content.split(" ").slice(2).join(' ');
@@ -330,4 +332,4 @@ client.on('message', msg => {
    }
    });
 /////
-client.login('NjAyNDIxMTg0MDQ2NDMyMjU3.XTQmeA.nDqdCLDJs9SZPjuYlhXhdbMLyoM');
+client.login('NjAyNDIxMTg0MDQ2NDMyMjU3.XTQskQ.xK-vjhMxSsgH-JeVnbagbeR6DjQ');
